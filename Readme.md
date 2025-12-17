@@ -31,9 +31,14 @@ utilizando la API pública [DolarAPI.com](https://dolarapi.com).
 
    instalar dependencias:
     pip install -r requirements.txt
-
+   
+## Pasos de ejecucion 
+1- api_client.py
+2- utils.py
+4- main.py
 
 ## Ejemplo de salida
 
 [16-12-2025 20:35] Dólar Oficial: Compra $1430.00 - Venta $1480.00
 [16-12-2025 20:35] Dólar Blue: Compra $1480.00 - Venta $1500.00
+
