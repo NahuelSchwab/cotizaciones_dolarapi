@@ -2,7 +2,7 @@
 Programa principal
 ------------------
 Consulta diariamente la cotización del dólar oficial y dólar blue en pesos argentinos
-desde la API de DolarAPI.
+desde la API de DolarAPI
 """
 
 from api_client import obtener_cotizaciones_dolarapi
@@ -10,7 +10,8 @@ from utils import formatear_salida
 
 
 def main():
-    """Función principal del programa."""
+    """Función principal del programa
+       Obtiene las cotizaciones y las imprime en consola formateadas"""
     datos = obtener_cotizaciones_dolarapi()
 
     oficial = datos.get("Dólar Oficial")
@@ -24,3 +25,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
