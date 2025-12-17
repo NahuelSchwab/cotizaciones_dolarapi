@@ -15,7 +15,11 @@ utilizando la API pública [DolarAPI.com](https://dolarapi.com).
 
 ## Instalación y entorno virtual (venv)
 
-1. El repositorio:
+Instalacion:
+pip install request
+pip install pytest
+
+ El repositorio:
    ```bash
    git clone https://github.com/NahuelSchwab/cotizaciones_dolarapi.git
    cd cotizaciones_dolarapi
@@ -41,5 +45,6 @@ utilizando la API pública [DolarAPI.com](https://dolarapi.com).
 
 [16-12-2025 20:35] Dólar Oficial: Compra $1430.00 - Venta $1480.00
 [16-12-2025 20:35] Dólar Blue: Compra $1480.00 - Venta $1500.00
+
 
 
