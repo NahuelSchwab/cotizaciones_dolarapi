@@ -15,7 +15,20 @@ utilizando la API pública [DolarAPI.com](https://dolarapi.com).
 
 ## Instalación y entorno virtual (venv)
 
-1. Clonar el repositorio:
+1. El repositorio:
    ```bash
-   git clone https://github.com/usuario/cotizaciones_dolarapi.git
+   git clone https://github.com/NahuelSchwab/cotizaciones_dolarapi.git
    cd cotizaciones_dolarapi
+
+   Entorno virtual:
+   python -m venv venv
+
+   Activar entorno virtual:
+   Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass .\venv\Scripts\Activate
+
+   Linux/Mac :
+   source venv/bin/activate
+
+   instalar dependencias:
+    pip install -r requirements.txt
+
