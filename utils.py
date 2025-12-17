@@ -1,6 +1,6 @@
 """
-Módulo utils
-------------
+Módulo utils:
+
 Funciones auxiliares para formatear y mostrar resultados.
 """
 
@@ -11,7 +11,7 @@ def formatear_salida(moneda: str, compra: float, venta: float) -> str:
     """
     Devuelve un string formateado con la cotización.
 
-    Parameters
+    Parametros
     ----------
     moneda : str
     Nombre de la moneda.
@@ -27,5 +27,6 @@ def formatear_salida(moneda: str, compra: float, venta: float) -> str:
     """
     fecha = datetime.now().strftime("%d-%m-%Y %H:%M")
     return f"[{fecha}] {moneda}: Compra ${compra:.2f} - Venta ${venta:.2f}"
+
 
 
